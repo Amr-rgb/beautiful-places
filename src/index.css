@@ -4,6 +4,12 @@
 
 @layer base {
   html {
-    font-family: 'Aboreto', cursive;
+    font-family: "Aboreto", cursive;
+  }
+}
+
+@layer components {
+  .app {
+    @apply invisible;
   }
 }
